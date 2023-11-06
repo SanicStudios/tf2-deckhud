@@ -3112,6 +3112,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"AlteHaas48"
+		{
+			"1"
+			{
+				"name"		"Alte Haas Grotesk"
+				"tall"		"48"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"AlteHaas56"
+		{
+			"1"
+			{
+				"name"		"Alte Haas Grotesk"
+				"tall"		"56"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"SonoMed16"
 		{
 			"1"
@@ -3151,6 +3173,28 @@ Scheme
 			{
 				"name"		"Sono Medium"
 				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SonoMed36"
+		{
+			"1"
+			{
+				"name"		"Sono Medium"
+				"tall"		"36"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"SonoMed48"
+		{
+			"1"
+			{
+				"name"		"Sono Medium"
+				"tall"		"48"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
