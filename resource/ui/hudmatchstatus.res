@@ -288,7 +288,7 @@
 		"wide_hidef"		"300"
 		"wide_lodef"		"300"
 		"tall"				"150"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"delta_item_x"			"22"	[$WIN32]
 		"delta_item_x"			"115"	[$X360]
@@ -317,9 +317,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
+			"font"			"AlteHaas14"
 			"fgcolor"		"TanLight"
 			"xpos"			"23"
 			"xpos_minmode"	"39"
@@ -368,16 +366,16 @@
 
 		"max_size"	"19"
 
-		"6v6_gap"	"4"
+		"6v6_gap"	"6"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
 		"team1_base_x"	"c-45"
-		"team1_max_expand"	"133"
+		"team1_max_expand"	"200"
 
 		"team2_grow_dir" "east"
 		"team2_base_x"	"c47"
-		"team2_max_expand"	"133"
+		"team2_max_expand"	"200"
 
 		"playerpanels_kv"
 		{
@@ -419,8 +417,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"3"
-				"wide"			"19"
-				"tall"			"19"
+				"wide"			"30"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -435,7 +433,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -447,7 +445,7 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"30"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"2"				
@@ -467,7 +465,7 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"30"
 				"zpos"					"6"
 				"wide"					"f0"
 				"tall"					"2"				
@@ -538,12 +536,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"AlteHaas10"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -627,7 +625,7 @@
 		"wide"			"150"
 		"tall"			"260"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 
 		if_large
 		{
@@ -642,12 +640,12 @@
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"147"
+			"wide"			"200"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
 		"BlueTeamImage"
@@ -659,8 +657,8 @@
 			"zpos"			"5"
 			"wide"			"56"
 			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
 		}
