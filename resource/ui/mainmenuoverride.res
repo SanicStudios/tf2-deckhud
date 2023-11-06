@@ -1594,7 +1594,54 @@
 			"scaleImage"	"1"
 		}				
 	}
-	
+	"HudReload"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"NewUserForumsButton"
+		"xpos"			"c-158+273"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"30"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		""
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"hud_reloadscheme"
+
+		"navUp"			"VRModeButton"
+		"navLeft"		"QuitButton"
+		"navRight"		"AchievementsButton"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"PaintBackgroundType" "0"
+		"border_default"	"MainMenuSubButtonBorder"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"1"
+			"wide"			"18"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_options"
+			"scaleImage"	"1"
+		}				
+	}		
+		
 
 	"AchievementsButton"
 	{

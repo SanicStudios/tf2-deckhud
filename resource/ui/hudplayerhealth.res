@@ -69,7 +69,7 @@
 		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"75"
 		"xpos_minmode"	"61"
-		"ypos"			"53"	[$WIN32]
+		"ypos"			"56"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"5"
 		"wide"			"64"
@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"SonoMed30"
+		"font"			"AlteHaas30"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"

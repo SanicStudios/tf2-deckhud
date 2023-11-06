@@ -16,7 +16,7 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r280"	[$WIN32]
+		"xpos"	"r315"	[$WIN32]
 		"ypos"	"r140"	[$WIN32]
 		"wide"	"90"
 		"tall"	"45"
@@ -72,9 +72,9 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
+		"xpos"			"480"	[$WIN32]
 		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
+		"ypos"			"r148"	[$WIN32]
 		"ypos_minmode"	"r34"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -195,11 +195,8 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r162"	[$WIN32]
-		"ypos"					"r152"	[$WIN32]
-		"ypos_minmode"			"r134"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+		"xpos"					"475"	[$WIN32]
+		"ypos"					"258"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -254,18 +251,10 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"285"
+		"ypos"		"30"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"25"
 		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID

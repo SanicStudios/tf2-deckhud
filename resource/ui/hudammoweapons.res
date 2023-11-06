@@ -32,7 +32,7 @@
 		"wide"			"90"
 		"tall"			"45"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/ammo_red_bg"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/ammo_red_bg"
@@ -89,9 +89,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"AlteHaas30"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
+		"font"			"AlteHaas24"
 		"fgcolor"		"TanLight"
 		"xpos"			"59"
 		"xpos_minmode"	"65"
@@ -110,9 +108,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"AlteHaas30"
-		"font_lodef"	"HudFontMedium"
-		"font_minmode"	"HudFontSmall"
+		"font"			"AlteHaas24"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"60"
 		"xpos_minmode"	"66"
@@ -131,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"AlteHaas56"
+		"font"			"AlteHaas48"
 		"fgcolor"		"TanLight"
 		"xpos"			"0"
 		"ypos"			"2"
@@ -151,7 +147,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"AlteHaas56"
+		"font"			"AlteHaas48"
 		"fgcolor"		"Black"
 		"xpos"			"1"
 		"xpos_hidef"	"2"
